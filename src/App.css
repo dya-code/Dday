@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Molu";
+  src: url("./assets/fonts/MainFont_Bold.ttf");
+}
+
+* {
+  font-family: 'Molu', serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.contain {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.d-day {
+  font-size: 30px;
+}
+
+.now {
+  font-size: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.asdf {
+  /* font-weight: bold; */
+  font-size: 30px;
+}
